@@ -12,12 +12,8 @@ min-width: 980px;
 margin: auto;
 text-align: left;
 }
-img {
-  border-radius: 50%;
-}
 h1 {
   position: absolute;
-  left: 240px;
   top: 150px;
   text-align: center;
   font-weight: 3000;
@@ -26,32 +22,34 @@ h1 {
 }
 h3 {
   position: absolute;
-  left: 270px;
   top: 200px;
   text-transform: uppercase;
 }
 h4 {
   position: absolute;
-  left: 280px;
   top: 230px;
   text-transform: uppercase;
 }
 h5{
   font-family: 'Trebuchet MS';
   color :antiquewhite;
-  position: absolute;
-  left : 10px;
+  position: relative;
+  left : 150px;
   text-transform: uppercase;
+  float:right;
+  margin: auto;
+  top:-10px;
+  font-size: 15px;
 }
   img {
   position: absolute;
-  left: 270px;
   top: 4px;
   font-weight: 2000;
   float: right;
+  border-radius: 50%;
   }
 .container {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
     width: 1920px;
    height: 290px;
@@ -69,26 +67,28 @@ h5{
 li
 {
   position: relative;
-  left:-15px;
-  top: 70px;
+  left:10px;
+  top: 75px;
   color: antiquewhite;
   font-family: 'Trebuchet MS';
+  margin: auto;
 }
 h6{
-  position: absolute;
-  top:500px;
-  left:20px;
+  position: relative;
+  top:220px;
+  left:-100px;
   text-transform: uppercase;
   font-family: 'Trebuchet MS';
-  font-size: 14px;
+  font-size: 16px;
   color:antiquewhite;
+  float: left;
 }
 p{
-  position:absolute;
+  position: absolute;
   color:antiquewhite;
   font-family: 'Trebuchet MS';
   font-size: 18px;
-  left:400px;
+  left:600px;
   top:288px;
   float: right;
 }
@@ -109,12 +109,10 @@ p{
 <h3 style="font-family:Trebuchet MS">Student Inginerie</h3>
 <h4 style="font-family:Trebuchet MS">21 de ani din Cluj</h4>
 <img src=https://images.pexels.com/photos/9029801/pexels-photo-9029801.jpeg?auto=compress&cs=tinysrgb&w=600 width="150" height="150" class="center">
-<img align="bottom">
-<p align="center"></p>
 <br>
 <div class="line"></div>
 <div class="date de contact"></div>
-<h5 class="title">- Date de contact -</h5>
+<h5 class="title">  Date de contact </h5>
 <ul>
   <li>
     <span class="icon"><i class="fa fa-phone-square" aria-hidden="true"></i>
@@ -141,9 +139,15 @@ p{
 <h6 class="title">LIMBI VORBITE:<br>
   -Engleza<br>
   -Romana<br>
-  -Germana
 </h6>
 <div class="wrapper"></div>
+<div class="textbox"> <p>PROFIL PERSONAL<br><br>Student anul I inginerie electronica<br>si telecomunicatii
+  2 ani experienta<br>in domeniul birotica si service <br>specializat in reparatii laptop
+  si pc<br>bla bla bla bla bla...<br>
+  continut de umplutura sa arate mai bine<br>
+  bla bla bla...<br><br><br>
+  Proiect IA 2024<br>...</div>
+<div class="box2"> </div>
 
 <p>PROFIL PERSONAL<br><br>Student anul I inginerie electronica<br>si telecomunicatii
 2 ani experienta<br>in domeniul birotica si service <br>specializat in reparatii laptop
