@@ -1,160 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="ro">
 <head>
-<style>    
-body {
-  background-color: DodgerBlue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-min-width: 980px;
-margin: auto;
-text-align: left;
-}
-h1 {
-  position: absolute;
-  top: 150px;
-  text-align: center;
-  font-weight: 3000;
-  text-transform: uppercase;
-  line-height: 1.4em;
-}
-h3 {
-  position: absolute;
-  top: 200px;
-  text-transform: uppercase;
-}
-h4 {
-  position: absolute;
-  top: 230px;
-  text-transform: uppercase;
-}
-h5{
-  font-family: 'Trebuchet MS';
-  color :antiquewhite;
-  position: relative;
-  left : 150px;
-  text-transform: uppercase;
-  float:right;
-  margin: auto;
-  top:-10px;
-  font-size: 15px;
-}
-  img {
-  position: absolute;
-  top: 4px;
-  font-weight: 2000;
-  float: right;
-  border-radius: 50%;
-  }
-.container {
-    background-color: rgb(255, 255, 255);
-    color: black;
-    width: 1920px;
-   height: 290px;
-   position: absolute;
-   top:0px;
-}
-.line {
-    background-color: rgb(128, 128, 128);
-    color: black;
-    width: 1920px;
-   height: 10px;
-   position: absolute;
-   top:290px;
-}
-li
-{
-  position: relative;
-  left:10px;
-  top: 75px;
-  color: antiquewhite;
-  font-family: 'Trebuchet MS';
-  margin: auto;
-}
-h6{
-  position: relative;
-  top:220px;
-  left:-100px;
-  text-transform: uppercase;
-  font-family: 'Trebuchet MS';
-  font-size: 16px;
-  color:antiquewhite;
-  float: left;
-}
-p{
-  position: absolute;
-  color:antiquewhite;
-  font-family: 'Trebuchet MS';
-  font-size: 18px;
-  left:600px;
-  top:288px;
-  float: right;
-}
-.wrapper
-{
-  width:980px;
-  margin: auto;
-  text-align: left;
-}
-</style>
-<title>Proiect</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CV Nistor Tudor</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: blue;
+            color: white;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        header {
+            margin-bottom: 40px;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: block;
+            object-fit: cover;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-top: 20px;
+            color: white;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-top: 10px;
+            color: white;
+        }
+        .bio {
+            margin-top: 30px;
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: white;
+        }
+        .skills,
+        .education,
+        .languages {
+            margin-top: 40px;
+        }
+        .section-title {
+            font-size: 1.6em;
+            color: white;
+            margin-bottom: 10px;
+        }
+        .list {
+            list-style: none;
+            padding: 0;
+        }
+        .list li {
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 1.1em;
+            color: white;
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            h2 {
+                font-size: 1.2em;
+            }
+            .bio {
+                font-size: 1em;
+            }
+        }
+    </style>
 </head>
 <body>
-    <div class="container"></div>
-<h1 style="font-family:Trebuchet MS">Nistor Tudor</h1>
-<h3 style="font-family:Trebuchet MS">Student Inginerie</h3>
-<h4 style="font-family:Trebuchet MS">21 de ani din Cluj</h4>
-<img src=https://images.pexels.com/photos/9029801/pexels-photo-9029801.jpeg?auto=compress&cs=tinysrgb&w=600 width="150" height="150" class="center">
-<br>
-<div class="line"></div>
-<div class="date de contact"></div>
-<h5 class="title">  Date de contact </h5>
-<ul>
-  <li>
-    <span class="icon"><i class="fa fa-phone-square" aria-hidden="true"></i>
-      <Span class="text">+12 345 6789</Span>
-    </span>
-  </li>
-  <li>
-    <span class="icon"><a href="https://lemn.com/lander" class="fa fa-globe" aria-hidden="true"></i></a>
-      <Span class="text">www.my website.com</Span>
-    </span>
-  </li>
-  <li>
-    <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i>
-      <Span class="text">Cluj-Napoca, Romania</Span>
-    </span>
-  </li>
-  <li>
-    <span class="icon"><a href="https://mail.google.com/mail/u/0/#inbox" class="fa fa-envelope-o" aria-hidden="true"></i></a>
-      <Span class="text">mail@gmail.com</Span>
-    </span>
-  </li>
-</ul>
+    <div class="container">
+        <header>
+            <img src="https://images.pexels.com/photos/2085831/pexels-photo-2085831.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Nistor Tudor" class="profile-pic">
+            <h1>Nistor Tudor</h1>
+            <h2>Student la Inginerie, 21 de ani</h2>
+        </header>
 
-<h6 class="title">LIMBI VORBITE:<br>
-  -Engleza<br>
-  -Romana<br>
-</h6>
-<div class="wrapper"></div>
-<div class="textbox"> <p>PROFIL PERSONAL<br><br>Student anul I inginerie electronica<br>si telecomunicatii
-  2 ani experienta<br>in domeniul birotica si service <br>specializat in reparatii laptop
-  si pc<br>bla bla bla bla bla...<br>
-  continut de umplutura sa arate mai bine<br>
-  bla bla bla...<br><br><br>
-  Proiect IA 2024<br>...</div>
-<div class="box2"> </div>
+        <section class="bio">
+            <p>Sunt un student la inginerie, pasionat de tehnologie și inovație. Am 21 de ani și sunt fluent în limba română și engleză. Îmi doresc să dezvolt soluții tehnice care să aducă îmbunătățiri semnificative în industrie.</p>
+        </section>
 
-<p>PROFIL PERSONAL<br><br>Student anul I inginerie electronica<br>si telecomunicatii
-2 ani experienta<br>in domeniul birotica si service <br>specializat in reparatii laptop
-si pc<br>bla bla bla bla bla...<br>
-continut de umplutura sa arate mai bine<br>
-bla bla bla...<br><br><br>
-Proiect IA 2024<br>...
-</p>
+        <section class="skills">
+            <div class="section-title">Abilități</div>
+            <ul class="list">
+                <li>Programare: C++, Python, Java</li>
+                <li>Dezvoltare web: HTML, CSS, JavaScript</li>
+                <li>Design și modelare 3D</li>
+                <li>Analiză date</li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <div class="section-title">Educație</div>
+            <ul class="list">
+                <li>2022 - Prezent: Universitatea Tehnică din Cluj-Napoca - Facultatea de Inginerie</li>
+                <li>2019 - 2022: Colegiul National "Mihai Eminescu", Specializarea Matematica-Informatica</li>
+            </ul>
+        </section>
+
+        <section class="languages">
+            <div class="section-title">Limbi Străine</div>
+            <ul class="list">
+                <li>Română (Nativ)</li>
+                <li>Engleză (Avansat)</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Nistor Tudor</p>
+        </footer>
+    </div>
 </body>
 </html>
